@@ -10,7 +10,7 @@ generateTable(tableData);
 var filterButton = d3.select("#filter-btn");
 filterButton.on("click", function() {
     tableData = data;
-    
+
     // emptyFilter only needed for Filter Method #1
     //var emptyFilter = true;
     var dateFilter = d3.select("#datetime").property("value");
@@ -58,7 +58,7 @@ filterButton.on("click", function() {
 
     // Filter Method #2 Refined
     var tableData2 = tableData.filter(i => {if (dateFilter) {return i.datetime === dateFilter;} else {return true;}})
-                            .filter(i => {if (cityFilter){ return i.city === cityFilter;} else {return true;}})
+                            .filter(i => {if (cityFilter){return i.city === cityFilter;} else {return true;}})
                             .filter(i => {if (stateFilter){return i.state === stateFilter;} else {return true;}})
                             .filter(i => {if (countryFilter){return i.country === countryFilter;} else {return true;}})
                             .filter(i => {if (shapeFilter){return i.shape === shapeFilter;} else {return true;}});
@@ -68,6 +68,8 @@ filterButton.on("click", function() {
     
 });
 
+
+// Generate Table Method #1
 // Generate table based on data passed as tableData
 function generateTable(tableData){
     //Separate data into table format
@@ -80,3 +82,17 @@ function generateTable(tableData){
     tableBody.html("");
     tableBody.html(tableContent);
 };
+
+// // Generate Table Method #2
+// function generateTable(tableData){
+//     var tableBody = d3.select("tbody");
+//     tableBody.html("");
+//     tableData.forEach(function(vals) {
+//         var row = tableBody.append("tr");
+//         Object.entries(vals).forEach(function([key, value]) {
+//             var cell = row.append("td");
+//             cell.text(value);
+//         });
+//     });
+// }
+
