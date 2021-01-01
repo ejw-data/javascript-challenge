@@ -13,10 +13,14 @@ https://ejw-data.github.io/javascript-challenge/basic-2/
 
 <br>
 <br>
-## Noteable Revisions
-| Change Date | Description |  
-|--- | --- |    
-| 12/30/2020 | Updated readme |  
+
+## Notable Revisions
+
+<br>
+
+| Change Date | Description |
+| --- | --- |
+| 12/30/2020 | Updated readme |
 
 <br>
 <br>
