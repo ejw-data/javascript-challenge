@@ -8,8 +8,8 @@
 <br>
 
 ## Sample Tables
-https://ejw-data.github.io/javascript-challenge/basic-1/ <br>
-https://ejw-data.github.io/javascript-challenge/basic-2/
+https://ejw-data.github.io/javascript-filtering/basic-1/ <br>
+https://ejw-data.github.io/javascript-filtering/basic-2/
 
 <br>
 <br>
