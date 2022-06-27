@@ -2,25 +2,8 @@
 
 Author: Erin James Wills, ejw.data@gmail.com  
 
-<<<<<<< HEAD
 ![UFO Sightings Table](./config/images/ufo-javascript.png)
 <cite>Photo by [Marek Piwnicki](https://unsplash.com/@marekpiwnicki?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/ufo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</cite>
-=======
-![Table with Filtering Capabilities](https://github.com/ejw-data/javascript-challenge/blob/master/config/images/table1.JPG?raw=true)
-<br>
-## Objective
-### This repo is a personal project of a javascript generated table from a json file that also includes filtering capabilities .  I will continue to add onto this repo with new additions and improvements. 
-<br>
-
-## Sample Tables
-https://ejw-data.github.io/javascript-filtering/basic-1/ <br>
-https://ejw-data.github.io/javascript-filtering/basic-2/
-
-<br>
-<br>
-
-## Notable Revisions
->>>>>>> 1cf957413de6aa628390d60a3a4233865fb39ad6
 
 <br>
 
