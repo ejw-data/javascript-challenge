@@ -8,7 +8,12 @@ generateTable(tableData);
 // Set button functionality
 // Select button and text input
 var filterButton = d3.select("#filter-btn");
-filterButton.on("click", function() {
+filterButton.on("click", filterData);
+
+// Adds return functionality
+d3.selectAll(".filter").on("change", filterData);
+
+function filterData() {
     tableData = data;
 
     // emptyFilter only needed for Filter Method #1
@@ -66,7 +71,7 @@ filterButton.on("click", function() {
 
     generateTable(tableData2);
     
-});
+};
 
 
 // Generate Table Method #1
